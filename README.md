@@ -36,4 +36,137 @@ A Python GUI application to check your system’s specifications, network perfor
 ```bash
 git clone https://github.com/YourUsername/system-checker-gui.git
 cd system-checker-gui
-![]("C:\Users\jbtok\OneDrive\Pictures\Screenshots\System check.png")
+
+python -m venv .venv
+
+
+---
+
+# 🖥️ System Checker GUI  
+A simple cross‑platform system diagnostic tool that checks hardware, network, and security requirements, then generates a clean PDF report.
+
+---
+
+## 🚀 Features  
+The application performs a full system check and reports:
+
+- Entered email  
+- Operating System & version  
+- Hostname  
+- CPU cores + requirement status  
+- RAM amount + requirement status  
+- Network connectivity  
+- Download & Upload speeds + requirement checks  
+- TPM status (Windows only)  
+- Public IP, country lookup, VPN/proxy detection  
+- Timestamp of report generation  
+- PDF report saved automatically to the Desktop  
+
+---
+
+## 📦 Installation
+
+### 1. Create a virtual environment (recommended)
+
+```bash
+python -m venv .venv
+```
+
+### 2. Activate the virtual environment
+
+**Windows PowerShell**
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+**Windows Command Prompt**
+```cmd
+.venv\Scripts\activate.bat
+```
+
+**Linux / macOS**
+```bash
+source .venv/bin/activate
+```
+
+### 3. Install required packages
+
+Using `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+
+Or install manually:
+```bash
+pip install psutil speedtest-cli requests reportlab
+```
+
+---
+
+## ▶️ How to Run
+
+Make sure your virtual environment is activated, then run:
+
+```bash
+python system_checker_gui.py
+```
+
+1. Enter your email in the GUI  
+2. Click **“Run System Check”**  
+3. Results will appear directly in the GUI  
+4. A PDF report will be saved to your Desktop  
+
+---
+
+## 📄 PDF Report Contents
+
+The generated report includes:
+
+- Email entered in the GUI  
+- OS name and version  
+- Hostname  
+- CPU core count + pass/fail  
+- RAM amount + pass/fail  
+- Internet connectivity  
+- Download & upload speeds + requirement checks  
+- TPM status (Windows only)  
+- Public IP, country, VPN/proxy detection  
+- Date & time of report generation  
+
+---
+
+## 🛠️ Requirements
+
+- Python 3.8+  
+- Internet connection (for speed test & IP lookup)  
+- Windows, macOS, or Linux  
+- TPM check works only on Windows  
+
+---
+
+## 📁 Project Structure (example)
+
+```
+├── system_checker_gui.py
+├── requirements.txt
+├── README.md
+└── assets/
+```
+
+---
+
+![System check.png](../../OneDrive/Pictures/Screenshots/System%20check.png)
+
+
+## 🤝 Contributing  
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to improve.
+
+---
+
+## 📜 License  
+MIT License (or your preferred license)
+
+---
+
+
+

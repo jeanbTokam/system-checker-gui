@@ -155,7 +155,8 @@ The generated report includes:
 
 ---
 
-![System check.png](../../OneDrive/Pictures/Screenshots/System%20check.png)
+
+<img width="1407" height="934" alt="System check" src="https://github.com/user-attachments/assets/0e9f6128-468c-49c6-a00d-d6a1fd195714" />
 
 
 ## 🤝 Contributing  
@@ -163,10 +164,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ---
 
-## 📜 License  
-MIT License (or your preferred license)
 
----
 
 
 
